@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "./Styles";
 
 function Learn() {
   return (
@@ -12,7 +13,7 @@ function Learn() {
         Your journey begins with one simple action today.
       </p>
 
-      <button className="bg-blue-600 text-white px-7 py-3 rounded-lg hover:bg-blue-700">
+      <button className={Button}>
         Start Learning
       </button>
 
